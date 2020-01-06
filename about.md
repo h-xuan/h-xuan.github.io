@@ -15,7 +15,7 @@ Some of the subjects I'm actively working on currently are: web development, des
 <h2>🙋‍♀️ about me</h2>
 Hi! I'm xuan.
 
-An aspiring creator, a life enthusiast, a curious hermit.\
+An aspiring creator, a life enthusiast, a curious hermit.<br>
 Also a computer science undergraduate, a Singaporean born and bred, a self-learner and a hopeful dreamer.
 
 Self-introductions have always been a struggle for me. Despite all the labels, it's virtually impossible to pinpoint something so fluid, ever-changing, and multidimensional as that of a human personality. I hope to forever be a work in progress, constantly evolving through an iterative cycle of discovering my values and re-examining my beliefs, and then as far as possible living by these values consciously and mindfully.

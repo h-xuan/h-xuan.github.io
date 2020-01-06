@@ -8,7 +8,7 @@ layout: default
 If you would like to make something together with me or share your story with me, feel free to drop me an email at <a href = "mailto: notastingray@gmail.com">notastingray@gmail.com</a>.
 
 <br><br><br><br><br><br>
-...why that email name, you ask?\
+...why that email name, you ask?<br>
 It was partly inspired by a silly programming joke I'd read somewhere:
 
 What do you call an array of strings?
