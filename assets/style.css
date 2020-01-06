@@ -103,6 +103,12 @@ h3 {
 #hamburger-checkbox {
   display: none;
 }
+
+.change-lang {
+  text-align: center;
+  margin: 0;
+  font-size: 0.8em;
+}
 /******** scrollbar styles **********/
 ::-webkit-scrollbar {
   width: 10px;

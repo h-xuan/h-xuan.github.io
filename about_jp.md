@@ -1,28 +1,31 @@
 ---
-title: about
+title: プロファイル
 layout: default
 ---
 
-<h1 style="text-align:center;margin-bottom:5px">about</h1>
-<p class="change-lang">EN | <a href="about_jp.html">日本語</a></p>
+<h1 style="text-align:center;margin-bottom:5px">プロファイル</h1>
+<p class="change-lang"><a href="about.html">EN</a> | 日本語</p>
 
-Thank you for dropping by my humble little corner of the world wide web.
+私のブログを訪れてくれてありがとうございます。
 
-<h2>💻 about this site</h2>
-This is a space where I document my messy attempts to juggle my multitude of interests and hobbies. It is a journal I carry with me on my journey of exploration and discovery, both of the beautiful, extraordinary world we inhabit, and of the values and beliefs that shape my core and guide me in the direction towards a fulfilling life.
+<h2>💻 このサイトについて</h2>
 
-Some of the subjects I'm actively working on currently are: web development, design & illustration, and the Japanese language. This blog serves as a means of integrating these interests into my everyday life, and also as an avenue to share my personal journey of self-growth with my fellow human beings in hopes of reminding each other to never forget the magic of life.
+このブログは、毎日の勉強とともに自分の思いや考えなどを記録するために作りました。自分の思考を書き留める習慣を身につけて、毎日少しずつ人間として成長することを目指します。
 
-<h2>🙋‍♀️ about me</h2>
-Hi! I'm xuan.
+私が今勉強していることは三つあります：　ウェブ開発、デザイン・イラスト、そして日本語。それぞれのテーマで学んだことをこのサイトを通して実践してみようと思います。それと一緒に、自分の意見や価値観を素直に発信することで、少しでも誰かの力になれると嬉しいです。
 
-An aspiring creator, a life enthusiast, a curious hermit.<br>
-Also a computer science undergraduate, a Singaporean born and bred, a self-learner and a hopeful dreamer.
+意識的に生きることを心がけながら、自分の価値観に従う生き方で充実した日々を送りたいです。
 
-Self-introductions have always been a struggle for me. Despite all the labels, it's virtually impossible to pinpoint something so fluid, ever-changing, and multidimensional as that of a human personality. I hope to forever be a work in progress, constantly evolving through an iterative cycle of discovering my values and re-examining my beliefs, and then as far as possible living by these values consciously and mindfully.
+<h2>🙋‍♀️ 自己紹介</h2>
+こんにちは！ シュエンです。
+
+クリエーターになりたい人間。人生熱心家。好奇心旺盛なインドア派。<br>
+コンピューターサイエンスを専攻しているシンガポール人です。独学が大好きな夢想家でもあります。
+
+自己紹介するのは私にとって難しいですね。人間の性格とはいつでも変えられるものなんですから。いつだって理想の自分を追い求めて、それに向かってコツコツと進んでいくことが私の目標です。
 
 <details>
-<summary>Read on?</summary>
+<summary>続きを読む (英語）</summary>
 <h3>💖 my values</h3>
 I keep and regularly revise a short list of around 10 values that resonate the most strongly with me, and I strive to make decisions in accordance with these values. Here's the list ordered somewhat according to importance:
 <ul>
@@ -49,5 +52,5 @@ I keep and regularly revise a short list of around 10 values that resonate the m
 <p>If you've made it all the way down, I must say I'm very touched. Thank you for sharing the past few minutes of your time with me, and I'd love to hear from you too.</p>
 </details>
 <!--
-You can use HTML elements in Markdown, such as the comment element, and they won't be affected by a markdown parser. However, if you create an HTML element in your markdown file, you cannot use markdown syntax within that element's contents.
+You can use HTML elements in Markdown, such as the comment element, and they won't be affected by a markdown parser. However, if you create an HTML element in your markdown file, you cannot use markdown syntax within that element's contents.世界の美しさを見つけるブログの目的
 -->
