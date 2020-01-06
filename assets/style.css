@@ -37,7 +37,6 @@ body {
   margin: 0;
   padding: 50px;
   height: 84%;
-  width: 65%;
   display: inline-block;
   vertical-align: top;
   position: absolute;
@@ -146,6 +145,9 @@ h3 {
 .post-content {
   width: 90%;
   text-align: left;
+}
+.post-img img {
+  width: 100%;
 }
 
 /********** post list styles ******/
