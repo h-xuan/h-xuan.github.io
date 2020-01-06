@@ -2,6 +2,9 @@ title: hxuan
 
 plugins:
   - jekyll-paginate
+  - jekyll-remote-theme
 
 paginate: 5
 paginate_path: blog/:num
+
+remote_theme: h-xuan/h-xuan.github.io/
