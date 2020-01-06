@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% if page.title %}
+    <title>{{page.title}} | {{ site.title }}</title>
+    {% else %}
+    <title>{{ site.title }}</title>
+    {% endif %}
+    <link rel="stylesheet" type="text/css" href="/assets/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <div id="header-content">
+          <h1 class="logo"><a href="/index.html">👩‍💻🎨📝</a></h1>
+          
+            <input type="checkbox" id="hamburger-checkbox">
+              <label for="hamburger-checkbox" id="menu-toggle">
+              <span></span>
+              <span></span>
+              <span></span>
+              </label>
+          
+            <div id="header-text">
+            <hr />
+            <p>a log for recording my progress, works, thoughts & musings.</p>
+
+            <ul class="main-nav">
+              <li><a href="{{ "/about.html" | absolute_url }}">about</a></li>
+              <li><a href="{{ "/blog/index.html" | absolute_url }}">blog</a></li>
+              <li><a href="{{ "/projects/main.html" | absolute_url }}">projects</a></li>
+              <li><a href="{{ "/contact.html" | absolute_url }}">contact</a></li>
+            </ul>
+          </div>
+        </input>
+      
+      </div>
+    </div>
+
+      <div id="content">
+        {{ content }}
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+{{ content }}
+<div class="post-container">
+  <ul class="myposts">
+    {% for post in paginator.posts %}
+
+    <li class="post-item">
+      <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
+      <h1 class="post-title"><a href="{{ post.url }}">{{ post.title}}</a></h1>
+      <a href="{{ post.url }}"
+        ><img class="post-banner" src="{{post.imgurl}}"
+      /></a>
+      <div class="post-excerpt">
+        <p>{{ post.excerpt }}</p>
+        <p><a href="{{ post.url }}">Read more →</a></p>
+      </div>
+    </li>
+
+    {% endfor %}
+  </ul>
+
+  <!-- pagination  -->
+  {% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
+    {% else %}
+    <span>&laquo; Prev</span>
+    {% endif %} {% for page in (1..paginator.total_pages) %} {% if page ==
+    paginator.page %}
+    <em>{{ page }}</em>
+    {% elsif page == 1 %}
+    <a href="{{ paginator.previous_page_path | relative_url }}">{{ page }}</a>
+    {% else %}
+    <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}"
+      >{{ page }}</a
+    >
+    {% endif %} {% endfor %} {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
+    {% else %}
+    <span>Next &raquo;</span>
+    {% endif %}
+  </div>
+  {% endif %}
+</div>
