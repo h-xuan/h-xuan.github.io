@@ -1,5 +1,5 @@
 title: hxuan
-
+theme: hx_theme
 plugins:
   - jekyll-paginate
 
