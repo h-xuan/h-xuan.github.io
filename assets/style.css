@@ -37,6 +37,7 @@ body {
   margin: 0;
   padding: 50px;
   height: 84%;
+  min-width: 64%;
   display: inline-block;
   vertical-align: top;
   position: absolute;
@@ -143,7 +144,7 @@ h3 {
 }
 
 .post-content {
-  width: 90%;
+  width: 100%;
   text-align: left;
 }
 .post-img img {
