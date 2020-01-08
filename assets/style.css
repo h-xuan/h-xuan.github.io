@@ -160,6 +160,10 @@ h3 {
   display: block;
 }
 
+.post-content hr {
+  margin: 40px auto;
+}
+
 /********** post list styles ******/
 .myposts {
   list-style-type: none;
