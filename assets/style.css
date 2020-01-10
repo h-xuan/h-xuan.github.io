@@ -98,6 +98,7 @@ h3 {
 .quote {
   font-style: italic;
   text-align: center;
+  font-size: 0.85em;
 }
 
 #hamburger-checkbox {
