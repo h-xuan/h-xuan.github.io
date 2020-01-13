@@ -279,6 +279,12 @@ h3 {
   cursor: pointer;
 }
 
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 /******* mobile/tablet *******/
 @media (max-width: 768px) {
   #wrapper {
@@ -399,5 +405,9 @@ h3 {
     display: block;
     width: 80%;
     text-align: center;
+  }
+
+  .clearfix p {
+    font-size: 0.85em;
   }
 }
