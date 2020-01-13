@@ -24,7 +24,7 @@ Self-introductions have always been a struggle for me. Despite all the labels, i
 <details>
 <summary>Read on?</summary>
 <h3>💖 my values</h3>
-I keep and regularly revise a short list of around 10 values that resonate the most strongly with me, and I strive to make decisions in accordance with these values. Here's the list ordered somewhat according to importance:
+I keep and regularly revise a short list of around 10 values that resonate the most strongly with me, and I strive to make decisions in accordance with these values. Here's the list somewhat in order of priority:
 <ul>
 <li><b>Love</b>: referring to love in a general, all-encompassing sense - love for ourselves and others, for what we do, for the environment and the planet, for all living beings, for life itself. </li>
 <li><b>Kindness</b>: to treat others and ourselves with care and compassion.</li>

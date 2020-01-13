@@ -1,0 +1,68 @@
+---
+title: projects
+layout: default
+---
+
+<h1>projects</h1>
+
+<div class="card" onclick="appPop()">
+  <img src="/assets/images/proj/thumb_website.png" style="width:100%" />
+  <div class="card-container">
+    <h4><b>Personal website</b></h4>
+    <p>
+      Built a static personal website (the one you're looking at!) with basic
+      HTML & CSS.
+    </p>
+  </div>
+</div>
+
+<!-- MODAL CONTENT -->
+
+<div id="appModal" class="modal">
+  <div class="modal-content">
+    <span class="appclose">&times;</span>
+    <div class="clearfix">
+      <img src="/assets/images/proj/img_website.png" class="popimage" />
+      <h3>Personal website</h3>
+      <p>
+        Building this site marks the start of my web dev journey. I went for a
+        minimalistic layout, built with vanilla HTML & CSS (& just a teeny bit
+        of Javascript for the cards on this page) to get the fundamentals down
+        before moving onto actual Javascript programming and all the fancy
+        frameworks out there. Also integrated Jekyll (spent quite some time
+        getting the pagination to work), uploaded to Github Pages, and made it
+        mobile responsive.
+      </p>
+      <p>
+        Next steps would probably be to learn CSS grid & flexbox layout models
+        for optimization and consistency and to reduce the amount of hacky code.
+        🤷‍♀️
+      </p>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Get the modal
+  var appmodal = document.getElementById("appModal");
+
+  // Get the <span> element that closes the modal
+  var appspan = document.getElementsByClassName("appclose")[0];
+
+  // When the user clicks the button, open the modal
+  function appPop() {
+    appModal.style.display = "block";
+  }
+
+  // When the user clicks on <span> (x), close the modal
+  appspan.onclick = function() {
+    appModal.style.display = "none";
+  };
+
+  // When the user clicks anywhere outside of the modal, close it
+  document.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  };
+</script>
