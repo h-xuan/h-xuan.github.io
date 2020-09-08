@@ -174,9 +174,6 @@ nav a:hover {
 }
 
 /* headings, divs, etc */
-p {
-  font-size: 0.9em;
-}
 ::selection {
   background: #ffeac9;
 }
