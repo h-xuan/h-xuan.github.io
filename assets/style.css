@@ -231,6 +231,9 @@ h3 {
 
 /* mobile */
 @media (max-width: 768px) {
+  body {
+    font-size: 0.9em;
+  }
   .wrapper {
     height: 100%;
     width: 100%;
