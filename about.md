@@ -1,33 +1,46 @@
 ---
 title: about
-layout: default
+layout: about
 ---
 
-<h1 style="text-align:center">about</h1>
+<h2>about</h2>
 
-Thank you for dropping by my humble little corner of the world wide web.
+<hr>
 
-<h2>💻 about this site</h2>
-This is a space where I document my messy attempts to juggle my multitude of interests and hobbies. It is a journal I carry with me on my journey of exploration and discovery, both of the beautiful, extraordinary world we inhabit, and of the values and beliefs that shape my core and guide me in the direction towards a fulfilling life.
+Thanks for visiting my little corner of the internet!
 
-Some of the subjects I'm actively working on currently are: web development, design & illustration, and the Japanese language. This blog serves as a means of integrating these interests into my everyday life, and also as an avenue to share my personal journey of self-growth with my fellow human beings in hopes of reminding each other to never forget the magic of life.
+<hr>
+<h3>💻 about this site</h3>
+This is a space where I document my messy attempts to juggle my many interests and hobbies. It also doubles as a form of accountability to stop myself from slipping back into couch potato mode. A tiny disclaimer: it may sometimes get too personal for comfort. But alas, that's what personal sites are for. :-)
+<br><br>
+The contents of this site will probably revolve mainly around web design/development, art & illustration, and language learning, which are three areas I'm actively working on right now.
+<br><br>
+You can reach me at <a href="mailto:notastingray@gmail.com">notastingray@gmail.com</a>. Share a joke, tell me your life story, propose collaboration ideas, or just say hi!
 
-<h2>🙋‍♀️ about me</h2>
+<hr> 
+<h3>🙋‍♀️ about me</h3>
 Hi! I'm xuan.
+<br>
+I'm an aspiring creator, a hopeful dreamer, and a curious hermit. Also a fresh computer science graduate who has come to realise that her passion lies in the arts. Currently, I'm self-learning front-end web development and art, while reserving time each day to enjoy my hobbies and favourite pastimes.
 
-An aspiring creator, a life enthusiast, a curious hermit.\
-Also a computer science undergraduate, a Singaporean born and bred, a self-learner and a hopeful dreamer.
-
-Self-introductions have always been a struggle for me. Despite all the labels, it's virtually impossible to pinpoint something so fluid, ever-changing, and multidimensional as that of a human personality. I hope to forever be a work in progress, constantly evolving through an iterative cycle of discovering my values and re-examining my beliefs, and then as far as possible living by these values consciously and mindfully.
-
+<hr>
 <details>
 <summary>Read on?</summary>
+Alrighty, here comes the touchy-feely stuff. ;-)
+<br><br>
+While the main role of this site is a log to track my progress in the aforementioned areas, it also acts as a journal that I carry with me on my journey of exploration and discovery - both of the extraordinary planet that we inhabit, and of the mystical inner world, of my beliefs and values that shape me and steer me towards the direction of a fulfilling life.
+<br>
+We're all living on borrowed time. I hope that documenting my works, thoughts & musings will serve as a constant reminder to myself to always strive for growth, to live consciously, and to never forget the magic of life.
+<hr>
 <h3>💖 my values</h3>
-I keep and regularly revise a short list of around 10 values that resonate the most strongly with me, and I strive to make decisions in accordance with these values. Here's the list ordered somewhat according to importance:
+
+I keep and regularly revise a short list of around 10 values that resonate most strongly with me, and I strive to make decisions in accordance with these values. Here's the list somewhat in order of priority:
+<br><br>
+
 <ul>
-<li><b>Love</b>: referring to love in a general, all-encompassing sense - love for ourselves and others, for what we do, for the environment and the planet, for all living beings, for life itself. </li>
+<li><b>Love</b>: referring to love in a general, all-encompassing sense - love for ourselves and others, for what we do, for the environment and the planet, for all living beings, for life itself.</li>
 <li><b>Kindness</b>: to treat others and ourselves with care and compassion.</li>
-<li><b>Authenticity</b>: to live in congruence with my values and beliefs. </li>
+<li><b>Authenticity</b>: to live in congruence with my values and beliefs.</li>
 <li><b>Curiosity</b>: to be curious about the world around me, how things work, why things are the way they are. To never stop questioning.</li>
 <li><b>Creativity</b>: to imagine, ideate, and make things that reflect our wonderful idiosyncrasies.</li>
 <li><b>Freedom</b>: to have the ability to pursue what I want in life.</li>
@@ -36,17 +49,22 @@ I keep and regularly revise a short list of around 10 values that resonate the m
 <li><b>Peace</b>: to maintain inner calm in the midst of chaos.</li>
 <li><b>Health</b>: to appreciate my physical and mental wellbeing and to celebrate what my body and mind can accomplish.</li>
 </ul>
-<h3>💡 interests</h3>
-<p>I have a broad range of interests, but I am most passionate when creating things (art, writing, programming, the list goes on...) and learning languages. Other activities I enjoy on my free time include: reading, listening to music, singing, photography, watching neighbourhood birds do their thing, messing around on my digital piano, cooking, reading blogs, drinking coffee. </p>
-<p>Learning new things fuels my soul and allows me to see the bigger picture and to draw connections between seemingly unrelated concepts. My thirst for knowledge knows no bounds - from natural sciences to the arts and humanities, from philosophy to botany - collecting nuggets of knowledge can be incredibly exciting.</p>
 
+<hr>
+<h3>💡 interests</h3>
+<p>I have a broad range of interests, but I am most passionate when creating things (art, writing, programming, the list goes on...) and learning languages. Other activities I enjoy on my free time include: reading, listening to music, singing, watching the neighbourhood birds do their thing, messing around on my digital piano and guitar, cooking(?), reading blogs, collecting random nuggets of knowledge, drinking coffee, and an occasional LoL game. </p>
+
+<hr>
 <h3>🌱 why veganism?</h3>
-<p>I consider myself a huge lover of animals, although it still surprises me how I'd lived 20 odd years without questioning the idea of eating the flesh of the very animals I claimed to love. In September 2019, I converted to veganism overnight after watching Earthlings, a documentary which exposes the horrors of the meat, dairy and egg industries. It was a much-needed awakening to the reality that I was directly sentencing innocent sentient beings to their deaths simply by being an ignorant consumer. (I am by no means implying that all meat eaters are ignorant; rather, I am disappointed in how oblivious I was to the extent of suffering I was causing through the seemingly innocuous act of buying and consuming meat.) In addition, learning about the negative environmental impacts resulting from livestock agriculture further reinforced my belief in veganism.</p>
-<p>After going vegan, it felt as though a heavy load was lifted off my shoulders. My subconscious probably had an inkling that something was amiss all along, and making the switch helped sort out the inconsistencies I didn't know I had regarding my views on animals and food. More importantly, it has taught me to live more consciously; to be more in tune with my own emotions, more aware of the repercussions of my actions, and more proactive in steering my life towards a more meaningful existence.</p>
-<p>To me, choosing not to partake in the exploitation of animals and the destruction of the environment is a commitment to show love and kindness towards animals, the planet, and myself.</p> 
-<br><hr><br>
-<p>If you've made it all the way down, I must say I'm very touched. Thank you for sharing the past few minutes of your time with me, and I'd love to hear from you too.</p>
+<p>One fateful night in September 2019, I casually decided to watch a documentary, Earthlings, that exposes the horrors of the meat, dairy and egg industries. Ever since the end of that video, I've never consumed a single shred of animal flesh, and have boycotted all forms of animal products. </p>
+<p>Somehow, I had grown so accustomed to seeing meat as food instead of dead animals that it had never occurred to me in 20-odd years that I had been directly sentencing animals to their deaths for the sake of momentary gustatory pleasure. Which usually doesn't even last for half an hour. I had the audacity to call myself an animal lover while indulging in their marinated body parts everyday without batting an eyelid. Needless to say, the documentary induced a massive cognitive dissonance in me and I knew that I wouldn't be able to live with myself without reconsidering my eating and consumption habits.
+</p>
+<p>While my reason for converting to a vegan lifestyle is primarily an ethical one, there are many other benefits to be reaped, such as increased energy levels and heightened mental clarity (I probably sound like a snake oil seller but I encourage you to try a 7-day experiment if you think it sounds too good to be true. Let me know when that happens!). More importantly, the switch has unlocked a new level of consciousness within me - I'm more in tune with my emotions, more aware of the repercussions of my actions, and more proactive in making my temporary existence a more meaningful one.
+</p>
+<p>TL;DR: I'm vegan for the animals, the planet, and myself.
+</p>
+
+<hr>
+<span class="actual-line"><hr></span>
+If you've made it all the way down, I'm super touched. Thanks for sharing precious minutes of your life with me and I'd love to hear your stories too.
 </details>
-<!--
-You can use HTML elements in Markdown, such as the comment element, and they won't be affected by a markdown parser. However, if you create an HTML element in your markdown file, you cannot use markdown syntax within that element's contents.
--->

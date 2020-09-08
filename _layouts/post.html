@@ -1,11 +1,10 @@
 ---
-layout: default
+layout: log
 ---
-<div class="post-content">
-<header class="post-header">
-  <p>{{ page.date | date_to_string }} ・ in <a href="{{ "/blog/index.html" | absolute_url }}">blog</a></p>
-  <h1>{{ page.title }}</h1>
-</header>
+
+<h2>{{page.title}}</h2>
+<p class="desc">{{ page.date | date_to_string }} ・ in <a href="{{ "/log.html" | absolute_url }}">log</a></p>
+
+<hr />
 
 {{ content }}
-</div>
