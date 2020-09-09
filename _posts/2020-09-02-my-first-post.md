@@ -2,7 +2,7 @@
 title: Hello internet!
 desc: introduction & curriculum
 layout: post
-date: 2020-09-07 11:49:46 +0800
+date: 2020-09-08 11:49:46 +0800
 ---
 
 Thanks for stumbling upon my little virtual space. Read on if you're curious about what a random stranger on the internet is up to in her post-graduation life.
