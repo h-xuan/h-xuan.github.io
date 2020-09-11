@@ -37,6 +37,8 @@ body {
 .header-title {
   flex-grow: 5;
   color: #524d46;
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  font-weight: 700;
 }
 
 .cross {
@@ -202,11 +204,15 @@ hr {
 h2 {
   color: #807766;
   text-align: center;
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  font-weight: 600;
 }
 
 h3 {
   color: #8f8471;
   margin: 7px auto;
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  font-weight: 600;
 }
 
 .desc {
