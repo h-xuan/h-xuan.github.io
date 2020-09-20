@@ -43,6 +43,7 @@ svg {
   background-position: center;
   background-repeat: no-repeat;
   padding-bottom: 300px;
+  background-origin: content-box;
   /* background-size: cover; */
   z-index: -1;
   left: 0px;
