@@ -41,7 +41,7 @@ svg {
   background-image: url("forestbg.png");
   background-position: center;
   background-repeat: no-repeat;
-  /* background-size: cover; */
+  background-size: cover;
   z-index: -1;
   left: 0px;
   transition: width 0.5s ease-in-out;
