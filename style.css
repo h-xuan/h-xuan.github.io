@@ -12,7 +12,6 @@ body {
   /* height: calc(var(--vh, 1vh) * 100); */
   overflow: hidden;
   background-color: #ff50f3;
-  padding-bottom: 300px;
 }
 svg {
   position: absolute;
@@ -43,6 +42,7 @@ svg {
   background-image: url("forestbg.png");
   background-position: center;
   background-repeat: no-repeat;
+  padding-bottom: 300px;
   /* background-size: cover; */
   z-index: -1;
   left: 0px;
