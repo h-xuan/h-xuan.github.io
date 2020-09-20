@@ -22,7 +22,7 @@ svg {
 
 #canvas {
   float: left;
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   overflow: hidden;
   /*flex: 0 0 500px;*/
