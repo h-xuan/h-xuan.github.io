@@ -11,7 +11,7 @@ body {
   /* height: 100vh; */
   /* height: calc(var(--vh, 1vh) * 100); */
   overflow: hidden;
-  background-color: #ff5033;
+  background-color: #ff50f3;
   padding-bottom: 300px;
 }
 svg {
