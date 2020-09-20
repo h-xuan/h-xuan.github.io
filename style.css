@@ -22,9 +22,9 @@ svg {
 
 #canvas {
   float: left;
-  /* height: 100%; */
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
+  height: 100%;
+  /* min-height: 100vh;
+  min-height: -webkit-fill-available; */
   width: 100vw;
   overflow: hidden;
   /*flex: 0 0 500px;*/
@@ -32,9 +32,9 @@ svg {
 }
 #main {
   position: absolute;
-  /* height: 100%; */
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
+  height: 100%;
+  /* min-height: 100vh;
+  min-height: -webkit-fill-available; */
   width: 100%;
   background-color: #eee;
   background-image: url("forestbg.png");
