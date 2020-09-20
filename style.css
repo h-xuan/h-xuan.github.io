@@ -23,7 +23,7 @@ svg {
 
 #canvas {
   float: left;
-  height: 100%;
+  height: calc(var(--vh, 1vh) * 100);
   /* min-height: 100vh;
   min-height: -webkit-fill-available; */
   width: 100vw;
@@ -33,7 +33,7 @@ svg {
 }
 #main {
   position: absolute;
-  height: 100%;
+  height: calc(var(--vh, 1vh) * 100);
   /* min-height: 100vh;
   min-height: -webkit-fill-available; */
   width: 100%;
@@ -129,6 +129,7 @@ nav a {
   height: 100vh;
   width: 65%;
   right: -65%;
+  bottom: 0;
   transition: right 0.5s ease-in-out;
 }
 
