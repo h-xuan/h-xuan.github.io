@@ -5,7 +5,7 @@ window.addEventListener("resize", () => {
   document.documentElement.style.setProperty("--vh", `${vh}px`);
 });
 
-var canvas = document.getElementById("canvas");
+var canvas = document.getElementById("main");
 
 canvas.addEventListener(
   "touchmove",
