@@ -90,7 +90,7 @@ for (let i = 0; i < links.length; i++) {
     // mobile //
     if (mql.matches) {
       document.getElementById("content").style.bottom = "0";
-      document.getElementById("canvas").style.height = "25%";
+      document.getElementById("canvas").style.height = "22%";
       document.getElementById("main").style.top = "-40%";
       document.getElementById("headerz").style.top = "-250px";
       document.getElementById("darkMode").style.top = "2%";
