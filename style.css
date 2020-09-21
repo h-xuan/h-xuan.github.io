@@ -24,7 +24,7 @@ svg {
 }
 
 #canvas {
-  float: left;
+  /* float: left; */
   /* height: calc(var(--vh, 1vh) * 100); */
   min-height: 100%;
   width: 100vw;
