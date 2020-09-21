@@ -31,6 +31,7 @@ svg {
   overflow: hidden;
   /*flex: 0 0 500px;*/
   transition: width 0.5s ease-in-out;
+  touch-action: none;
 }
 #main {
   position: absolute;
