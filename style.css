@@ -31,7 +31,7 @@ svg {
   transition: width 0.5s ease-in-out;
 }
 #main {
-  position: fixed;
+  position: absolute;
   min-height: 100%;
   /* min-height: 100vh;
   min-height: -webkit-fill-available; */

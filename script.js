@@ -5,6 +5,16 @@ window.addEventListener("resize", () => {
   document.documentElement.style.setProperty("--vh", `${vh}px`);
 });
 
+var canvas = document.getElementById("canvas");
+
+canvas.addEventListener(
+  "touchmove",
+  function (e) {
+    e.preventDefault();
+  },
+  false
+);
+
 // dark mode script //
 const moonPath =
   "M16 27.5C16 42.6878 27.5 54.5 27.5 55C12.3122 55 0 42.6878 0 27.5C0 12.3122 12.3122 0 27.5 0C27.5 0 16 12.3122 16 27.5Z";
