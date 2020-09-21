@@ -129,7 +129,7 @@ for (let i = 0; i < links.length; i++) {
 var titleh1 = document.getElementById("titleh1");
 titleh1.addEventListener("click", () => {
   if (mql.matches) {
-    document.getElementById("content").style.bottom = "-80%";
+    document.getElementById("content").style.bottom = "-100%";
     document.getElementById("canvas").style.height = "100%";
     document.getElementById("main").style.top = "0";
     document.getElementById("headerz").style.top = "0";
