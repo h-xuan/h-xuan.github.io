@@ -46,7 +46,7 @@ svg {
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
-  background-size: cover;
+  background-size: 1920px 1080px;
   z-index: -1;
   left: 0px;
   transition: width 0.5s ease-in-out;
