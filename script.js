@@ -14,13 +14,6 @@ canvas.addEventListener(
   },
   { passive: false }
 );
-canvas.addEventListener(
-  "touchstart",
-  function (e) {
-    e.preventDefault();
-  },
-  { passive: false }
-);
 
 // dark mode script //
 const moonPath =
