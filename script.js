@@ -1,20 +1,13 @@
-let vh = window.innerHeight * 0.01;
-document.documentElement.style.setProperty("--vh", `${vh}px`);
-window.addEventListener("resize", () => {
-  let vh = window.innerHeight * 0.01;
-  document.documentElement.style.setProperty("--vh", `${vh}px`);
-});
+// var canvas = document.getElementById("canvas");
 
-var canvas = document.getElementById("canvas");
-
-canvas.addEventListener(
-  "touchmove",
-  function (e) {
-    e.preventDefault();
-    e.stopPropagation();
-  },
-  { passive: false }
-);
+// canvas.addEventListener(
+//   "touchmove",
+//   function (e) {
+//     e.preventDefault();
+//     e.stopPropagation();
+//   },
+//   { passive: false }
+// );
 
 // dark mode script //
 const moonPath =
