@@ -151,9 +151,9 @@ iframe {
   #content {
     position: absolute;
     background-color: #fff;
-    height: 75%;
+    height: 80%;
     width: 100vw;
-    bottom: -75%;
+    bottom: -80%;
     left: 0;
     transition: bottom 0.5s ease-in-out;
     /* min-height: -webkit-fill-available; */
