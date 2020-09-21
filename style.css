@@ -13,7 +13,6 @@ body {
   /* height: 100vh; */
   /* height: calc(var(--vh, 1vh) * 100); */
   overflow: hidden;
-  background-color: #ff50f3;
   touch-action: none;
 }
 svg {
@@ -134,7 +133,7 @@ nav a {
 
 #content {
   position: absolute;
-  background-color: #45ff91;
+  background-color: #fff;
   height: 100%;
   width: 65%;
   right: -65%;
@@ -155,7 +154,7 @@ iframe {
   #content {
     position: absolute;
     background-color: #fff;
-    height: 80%;
+    height: 75%;
     width: 100vw;
     bottom: -100%;
     left: 0;
