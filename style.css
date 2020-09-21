@@ -31,6 +31,7 @@ svg {
   overflow: hidden;
   /*flex: 0 0 500px;*/
   transition: width 0.5s ease-in-out;
+  background-color: #45fffa;
 }
 #main {
   position: absolute;
@@ -40,7 +41,7 @@ svg {
   /* min-height: 100vh;
   min-height: -webkit-fill-available; */
   width: 100%;
-  background-color: #45fffa;
+  background-color: #eee;
   background-image: url("forestbg.png");
   background-position: center;
   background-repeat: no-repeat;
