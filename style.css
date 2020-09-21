@@ -31,7 +31,6 @@ svg {
   overflow: hidden;
   /*flex: 0 0 500px;*/
   transition: width 0.5s ease-in-out;
-  background-color: #45fffa;
 }
 #main {
   position: absolute;
@@ -132,7 +131,7 @@ nav a {
 #content {
   position: absolute;
   background-color: #45ff91;
-  height: 100vh;
+  height: 100%;
   width: 65%;
   right: -65%;
   bottom: 0;
@@ -140,10 +139,11 @@ nav a {
 }
 
 iframe {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   padding: 5% 10%;
   overflow-y: scroll;
+  background-color: #45fffa;
 }
 
 /****** mobile responsive ******/
