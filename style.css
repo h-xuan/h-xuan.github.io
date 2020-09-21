@@ -50,6 +50,7 @@ svg {
   z-index: -1;
   left: 0px;
   transition: width 0.5s ease-in-out;
+  touch-action: none;
 }
 
 #house-container {
