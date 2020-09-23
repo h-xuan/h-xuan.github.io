@@ -100,8 +100,8 @@ if (darkMode) {
         "-= 1200"
       );
 
+    window.frames[0].document.body.style.color = toggle ? "#303030" : "#eee";
     toggle = !toggle;
-    window.frames[0].document.body.style.color = "#eee";
   });
 }
 
