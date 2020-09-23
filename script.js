@@ -1,4 +1,11 @@
-// let frame = document.getElementById("cframe");
+var frame = document.getElementById("cframe");
+// var doc = frame.contentDocument
+//   ? frame.contentDocument
+//   : frame.contentWindow.document;
+
+frame.addEventListener("load", function () {
+  window.frames[0].document.body.style.backgroundColor = "red";
+});
 // let framebody = frame.contentDocument.getElementsByTagName("body")[0];
 // frame.onload = function () {
 //   framebody.style.color = "red";
@@ -51,13 +58,13 @@ if (darkMode) {
         },
         "-= 1200"
       )
-      .add(
-        {
-          targets: "#cframe",
-          filter: toggle ? "invert(0%)" : "invert(100%)",
-        },
-        "-= 1200"
-      )
+      // .add(
+      //   {
+      //     targets: "#cframe",
+      //     filter: toggle ? "invert(0%)" : "invert(100%)",
+      //   },
+      //   "-= 1200"
+      // )
       .add(
         {
           targets: "#house",
