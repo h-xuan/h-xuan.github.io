@@ -115,6 +115,7 @@ if (darkMode) {
 let mql = window.matchMedia("(max-width: 768px)");
 
 // slide content container out //
+// var selected = document.getElementsByClassName("selected");
 var links = document.getElementsByClassName("link-item");
 if (links) {
   for (let i = 0; i < links.length; i++) {
