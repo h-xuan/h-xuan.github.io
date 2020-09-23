@@ -60,6 +60,9 @@ svg {
   left: 55%;
   transition: left 0.5s ease-in-out;
 }
+#house-container.selected {
+  left: 15%;
+}
 #house {
   height: 150px;
   width: 150px;
@@ -141,7 +144,7 @@ nav a {
   transition: right 0.5s ease-in-out;
 }
 
-iframe {
+#cframe {
   height: 100%;
   width: 100%;
   /* padding-left: 30px; */
