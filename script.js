@@ -100,7 +100,7 @@ if (darkMode) {
         "-= 1200"
       );
 
-    // window.frames[0].document.body.style.color = toggle ? "#303030" : "#ccc";
+    window.frames[0].document.body.style.color = toggle ? "#303030" : "#ccc";
     toggle = !toggle;
   });
 }
