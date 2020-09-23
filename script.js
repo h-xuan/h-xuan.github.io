@@ -3,13 +3,9 @@ var frame = document.getElementById("cframe");
 //   ? frame.contentDocument
 //   : frame.contentWindow.document;
 
-frame.addEventListener("load", function () {
-  window.frames[0].document.body.style.backgroundColor = "red";
-});
-// let framebody = frame.contentDocument.getElementsByTagName("body")[0];
-// frame.onload = function () {
-//   framebody.style.color = "red";
-// };
+// frame.addEventListener("load", function () {
+//   window.frames[0].document.body.style.color = "#eee";
+// });
 
 // dark mode script //
 const moonPath =
@@ -105,6 +101,7 @@ if (darkMode) {
       );
 
     toggle = !toggle;
+    window.frames[0].document.body.style.color = "#eee";
   });
 }
 
