@@ -5,6 +5,7 @@ layout: post
 date: 2020-09-08 11:49:46 +0800
 ---
 
+<!--
 Thanks for stumbling upon my little virtual space. Read on if you're curious about what a random stranger on the internet is up to in her post-graduation life.
 
 <hr>
@@ -59,3 +60,4 @@ Thanks for stumbling upon my little virtual space. Read on if you're curious abo
 
 <hr>
 <p>That wraps up the purpose for this site's existence and the intense but exhilarating journey I'm about to embark on. Thanks for reading and let the first week begin!</p>
+-->
