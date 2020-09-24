@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>hxuan</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" type="text/css" href="/assets/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <section id="canvas">
+        <header id="headerz">
+          <h1>
+            <a href="hello.html" target="content-iframe" id="titleh1">hxuan</a>
+          </h1>
+          <nav>
+            <a class="link-item" href="log.html" target="content-iframe">log</a>
+            <a class="link-item" href="projects.html" target="content-iframe"
+              >projects</a
+            >
+            <a class="link-item" href="about.html" target="content-iframe"
+              >about</a
+            >
+          </nav>
+        </header>
+        <svg
+          id="darkMode"
+          width="55"
+          height="55"
+          viewBox="0 0 55 55"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="sun"
+            d="M55 27.5C55 42.6878 42.6878 55 27.5 55C12.3122 55 0 42.6878 0 27.5C0 12.3122 12.3122 0 27.5 0C42.6878 0 55 12.3122 55 27.5Z"
+            fill="#FFD770"
+          />
+        </svg>
+
+        <div id="main"></div>
+        <div id="house-container">
+          <div id="house"></div>
+          <div id="window"></div>
+        </div>
+      </section>
+
+      <section id="content">
+        <!-- 	<div id="content-container">
+
+
+</div> -->
+        <iframe
+          id="cframe"
+          src="hello.html"
+          frameborder="0"
+          name="content-iframe"
+        >
+        </iframe>
+      </section>
+    </div>
+
+    <script src="/scripts/anime.min.js"></script>
+    <script src="/scripts/script.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+  </body>
+</html>
