@@ -4,108 +4,41 @@ layout: page
 ---
 
 <h1>about</h1>
-<h2>where am i?</h2>
-<hr />
-😂 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus
-quam id leo in vitae turpis massa sed. Quis lectus nulla at volutpat diam
-ut venenatis tellus in. Vulputate ut pharetra sit amet aliquam id diam.
-Risus nullam eget felis eget nunc lobortis. Cras ornare arcu dui vivamus
-arcu. Tortor dignissim convallis aenean et tortor at. Porttitor rhoncus
-dolor purus non enim. Porttitor eget dolor morbi non arcu. Duis ultricies
-lacus sed turpis tincidunt id aliquet risus feugiat. At augue eget arcu
-dictum varius duis at consectetur lorem. Dui sapien eget mi proin sed
-libero enim sed. Ipsum dolor sit amet consectetur adipiscing elit ut.
-Aenean vel elit scelerisque mauris pellentesque. Massa enim nec dui nunc
-mattis enim. Pulvinar sapien et ligula ullamcorper. Nibh ipsum consequat
-nisl vel pretium. Luctus accumsan tortor posuere ac ut consequat semper
-viverra. Vitae tempus quam pellentesque nec nam aliquam sem et tortor.
-Aliquam etiam erat velit scelerisque in dictum. Turpis massa tincidunt dui
-ut ornare lectus. Feugiat pretium nibh ipsum consequat nisl vel pretium
-lectus quam. Montes nascetur ridiculus mus mauris. Quis imperdiet massa
-tincidunt nunc. Pellentesque dignissim enim sit amet venenatis urna cursus
-eget. Justo eget magna fermentum iaculis eu non. Ultricies tristique nulla
-aliquet enim tortor at. Venenatis a condimentum vitae sapien pellentesque
-habitant morbi tristique. Dignissim convallis aenean et tortor at. Lorem
-ipsum dolor sit amet consectetur adipiscing elit duis tristique.
-Pellentesque nec nam aliquam sem. Pharetra vel turpis nunc eget lorem
-dolor sed viverra ipsum. Pretium aenean pharetra magna ac placerat.
-Feugiat vivamus at augue eget arcu dictum varius duis at. In cursus turpis
-massa tincidunt dui ut ornare lectus sit. Consequat interdum varius sit
-amet mattis vulputate enim nulla. Velit ut tortor pretium viverra
-suspendisse potenti nullam ac tortor. Ac tincidunt vitae semper quis
-lectus nulla at volutpat. Nunc pulvinar sapien et ligula ullamcorper
-malesuada proin. Ac feugiat sed lectus vestibulum mattis ullamcorper.
-Maecenas volutpat blandit aliquam etiam erat. Sed egestas egestas
-fringilla phasellus faucibus. Nunc sed augue lacus viverra vitae congue
-eu. Odio eu feugiat pretium nibh ipsum consequat nisl vel pretium. Morbi
-leo urna molestie at elementum. Blandit libero volutpat sed cras ornare
-arcu dui vivamus. Turpis massa tincidunt dui ut ornare lectus. Eget nullam
-non nisi est sit amet facilisis magna etiam. Amet massa vitae tortor
-condimentum lacinia quis vel eros. Iaculis nunc sed augue lacus. Nunc sed
-augue lacus viverra vitae. Et odio pellentesque diam volutpat commodo. Eu
-turpis egestas pretium aenean. Quis commodo odio aenean sed adipiscing
-diam. In arcu cursus euismod quis viverra nibh cras pulvinar mattis. Vitae
-congue mauris rhoncus aenean vel. Nisl tincidunt eget nullam non nisi est
-sit. Et tortor consequat id porta nibh. Ut faucibus pulvinar elementum
-integer enim neque volutpat. Sed elementum tempus egestas sed sed risus
-pretium. Lacus vestibulum sed arcu non odio euismod lacinia. Euismod
-elementum nisi quis eleifend. Lacus suspendisse faucibus interdum posuere.
-Eget velit aliquet sagittis id consectetur purus. Facilisis gravida neque
-convallis a. Auctor eu augue ut lectus. Risus pretium quam vulputate
-dignissim suspendisse. Viverra aliquet eget sit amet tellus cras
-adipiscing enim eu. Euismod nisi porta lorem mollis aliquam. Adipiscing
-commodo elit at imperdiet. Laoreet non curabitur gravida arcu ac tortor
-dignissim convallis. Integer vitae justo eget magna fermentum iaculis eu
-non diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus quam id
-leo in vitae turpis massa sed. Quis lectus nulla at volutpat diam ut
-venenatis tellus in. Vulputate ut pharetra sit amet aliquam id diam. Risus
-nullam eget felis eget nunc lobortis. Cras ornare arcu dui vivamus arcu.
-Tortor dignissim convallis aenean et tortor at. Porttitor rhoncus dolor
-purus non enim. Porttitor eget dolor morbi non arcu. Duis ultricies lacus
-sed turpis tincidunt id aliquet risus feugiat. At augue eget arcu dictum
-varius duis at consectetur lorem. Dui sapien eget mi proin sed libero enim
-sed. Ipsum dolor sit amet consectetur adipiscing elit ut. Aenean vel elit
-scelerisque mauris pellentesque. Massa enim nec dui nunc mattis enim.
-Pulvinar sapien et ligula ullamcorper. Nibh ipsum consequat nisl vel
-pretium. Luctus accumsan tortor posuere ac ut consequat semper viverra.
-Vitae tempus quam pellentesque nec nam aliquam sem et tortor. Aliquam
-etiam erat velit scelerisque in dictum. Turpis massa tincidunt dui ut
-ornare lectus. Feugiat pretium nibh ipsum consequat nisl vel pretium
-lectus quam. Montes nascetur ridiculus mus mauris. Quis imperdiet massa
-tincidunt nunc. Pellentesque dignissim enim sit amet venenatis urna cursus
-eget. Justo eget magna fermentum iaculis eu non. Ultricies tristique nulla
-aliquet enim tortor at. Venenatis a condimentum vitae sapien pellentesque
-habitant morbi tristique. Dignissim convallis aenean et tortor at. Lorem
-ipsum dolor sit amet consectetur adipiscing elit duis tristique.
-Pellentesque nec nam aliquam sem. Pharetra vel turpis nunc eget lorem
-dolor sed viverra ipsum. Pretium aenean pharetra magna ac placerat.
-Feugiat vivamus at augue eget arcu dictum varius duis at. In cursus turpis
-massa tincidunt dui ut ornare lectus sit. Consequat interdum varius sit
-amet mattis vulputate enim nulla. Velit ut tortor pretium viverra
-suspendisse potenti nullam ac tortor. Ac tincidunt vitae semper quis
-lectus nulla at volutpat. Nunc pulvinar sapien et ligula ullamcorper
-malesuada proin. Ac feugiat sed lectus vestibulum mattis ullamcorper.
-Maecenas volutpat blandit aliquam etiam erat. Sed egestas egestas
-fringilla phasellus faucibus. Nunc sed augue lacus viverra vitae congue
-eu. Odio eu feugiat pretium nibh ipsum consequat nisl vel pretium. Morbi
-leo urna molestie at elementum. Blandit libero volutpat sed cras ornare
-arcu dui vivamus. Turpis massa tincidunt dui ut ornare lectus. Eget nullam
-non nisi est sit amet facilisis magna etiam. Amet massa vitae tortor
-condimentum lacinia quis vel eros. Iaculis nunc sed augue lacus. Nunc sed
-augue lacus viverra vitae. Et odio pellentesque diam volutpat commodo. Eu
-turpis egestas pretium aenean. Quis commodo odio aenean sed adipiscing
-diam. In arcu cursus euismod quis viverra nibh cras pulvinar mattis. Vitae
-congue mauris rhoncus aenean vel. Nisl tincidunt eget nullam non nisi est
-sit. Et tortor consequat id porta nibh. Ut faucibus pulvinar elementum
-integer enim neque volutpat. Sed elementum tempus egestas sed sed risus
-pretium. Lacus vestibulum sed arcu non odio euismod lacinia. Euismod
-elementum nisi quis eleifend. Lacus suspendisse faucibus interdum posuere.
-Eget velit aliquet sagittis id consectetur purus. Facilisis gravida neque
-convallis a. Auctor eu augue ut lectus. Risus pretium quam vulputate
-dignissim suspendisse. Viverra aliquet eget sit amet tellus cras
-adipiscing enim eu. Euismod nisi porta lorem mollis aliquam. Adipiscing
-commodo elit at imperdiet. Laoreet non curabitur gravida arcu ac tortor
-dignissim convallis. Integer vitae justo eget magna fermentum iaculis eu
-non diam.
+<h2>💻 where am i?</h2>
+<p>You are visiting my little corner of the internet and thanks for dropping by. This is a space where I document my messy attempts to juggle my many interests and hobbies. It also doubles as a form of accountability to stop myself from slipping back into couch potato mode. A tiny disclaimer: it may sometimes get too personal for comfort. But alas, that's what personal sites are for. :-)
+</p>
+<br>
+<p>
+The contents of this site will probably revolve mainly around my self-study adventures in three areas: web design/development, art & illustration, and language learning.
+</p>
+<br><br>
+<h2>🙋‍♀️ who are you?</h2>
+<p>Hi! I'm xuan.
+<br>
+An aspiring creator, a hopeful dreamer, and a curious hermit. I am on a journey of exploration and discovery, both of the beautiful, magical, extraordinary world we inhabit, and of the core values and beliefs that guide me in the direction towards becoming a kinder, better, and more conscious human being.
+</p>
+<br>
+<p>You can reach me at <a href="mailto:notastingray@gmail.com">notastingray@gmail.com</a>. Share a joke, tell me your life story, propose collaboration ideas, or just say hi!
+</p>
+
+<br>
+
+<details>
+<summary>Read on?</summary>
+<h3>💡 interests</h3>
+<p>Besides making things, other activities I enjoy on my free time include: reading, listening to music, singing, watching the neighbourhood birds do their thing, messing around on my digital piano and guitar, cooking(?), reading blogs, collecting random nuggets of knowledge, drinking coffee, and an occasional LoL game. </p>
+
+<br>
+<h3>🌱 why veganism?</h3>
+<p>One fateful night in September 2019, I casually decided to watch a documentary (Earthlings) about the horrors of the meat, dairy and egg industries. Ever since the end of that video, I've never consumed a single shred of animal flesh, and have boycotted all forms of animal products. </p>
+<br>
+<p>Somehow, I had grown so accustomed to seeing meat as food instead of dead animals that it had never occurred to me in 20-odd years that I had been directly sentencing innocent creatures to their deaths for the sake of momentary gustatory pleasure. Which usually doesn't even last for more than half an hour. I had the audacity to call myself an animal lover while indulging in their marinated body parts everyday without batting an eyelid. Needless to say, the documentary induced a massive cognitive dissonance in me and I knew that I wouldn't be able to live with myself without reconsidering my eating and consumption habits.
+</p>
+<br>
+<p>While I converted to a vegan lifestyle for primarily ethical reasons, I've come to reap benefits in other aspects of my life as well, such as increased energy levels and mental clarity (I'm not a snake oil seller I swear; Try conducting a 7-day experiment if you think it sounds too good to be true. Let me know when that happens!). Not to mention the tremendous environmental benefits that accompany a vegan diet. More importantly, the switch has unlocked a new level of consciousness within me - I'm more in tune with my emotions, more aware of the repercussions of my actions, and more proactive in making my temporary existence a more meaningful one.
+</p>
+
+<hr>
+If you've made it all the way down, I'm super touched. Thanks for sharing precious minutes of your life with me and I'd love to hear your stories too.
+
+</details>

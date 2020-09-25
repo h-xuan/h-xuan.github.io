@@ -211,3 +211,7 @@ function resetDesktop() {
   document.getElementById("canvas").style.left = "0";
   document.getElementById("content").style.width = "0";
 }
+function resetMobile() {
+  document.getElementById("content").style.bottom = "-100%";
+  document.getElementById("canvas").style.height = "100%";
+}

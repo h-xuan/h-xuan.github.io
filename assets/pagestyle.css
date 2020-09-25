@@ -20,8 +20,21 @@ h1 {
   color: #c9aa85;
 }
 
-h2 {
-  color: #777777;
+h2,
+h3 {
+  color: #8f8f8f;
+  margin: 10px auto;
+}
+
+p a {
+  color: #c9aa85;
+}
+p a:hover {
+  color: #e9d5be;
+}
+
+hr {
+  margin: 15px auto;
 }
 
 /****** scrollbar *******/
