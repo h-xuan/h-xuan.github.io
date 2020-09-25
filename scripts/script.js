@@ -176,6 +176,7 @@ if (titleh1) {
     // web //
     else {
       document.getElementById("canvas").style.width = "100%";
+      document.getElementById("canvas").style.height = "100%";
       document.getElementById("house-container").style.left = "55%";
       document.getElementById("darkMode").style.left = "60%";
       document.getElementById("headerz").style.left = "0";
@@ -197,21 +198,29 @@ window.onload = function () {
 window.onresize = function () {
   // mobile //
   if (mql.matches) {
+    resetMobile();
   }
   // desktop //
   else {
     resetDesktop();
-    document.getElementById("house-container").style.left = "55%";
-    document.getElementById("darkMode").style.left = "60%";
-    document.getElementById("headerz").style.left = "0";
   }
 };
 function resetDesktop() {
   document.getElementById("canvas").style.width = "100%";
   document.getElementById("canvas").style.left = "0";
+  document.getElementById("canvas").style.height = "100%";
   document.getElementById("content").style.width = "0";
+  document.getElementById("content").style.bottom = "0";
+  document.getElementById("house-container").style.left = "55%";
+  document.getElementById("darkMode").style.left = "60%";
+  document.getElementById("headerz").style.left = "0";
 }
 function resetMobile() {
   document.getElementById("content").style.bottom = "-100%";
   document.getElementById("canvas").style.height = "100%";
+  document.getElementById("main").style.top = "0";
+  document.getElementById("headerz").style.top = "0";
+  document.getElementById("darkMode").style.top = "10%";
+  document.getElementById("darkMode").style.left = "60%";
+  document.getElementById("house-container").style.top = "45%";
 }

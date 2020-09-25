@@ -6,7 +6,7 @@ layout: page
 <h1>progress log</h1>
 <p class="desc">A record of my daily/weekly/once in a blue moon progress.</p>
 
-<hr>
+<br>
 
 {% for post in site.posts %}
 {% capture current_year %}{{ post.date | date: "%Y" }}{% endcapture %}

@@ -18,7 +18,7 @@ The contents of this site will probably revolve mainly around my self-study adve
 An aspiring creator, a hopeful dreamer, and a curious hermit. I am on a journey of exploration and discovery, both of the beautiful, magical, extraordinary world we inhabit, and of the core values and beliefs that guide me in the direction towards becoming a kinder, better, and more conscious human being.
 </p>
 <br>
-<p>You can reach me at <a href="mailto:notastingray@gmail.com">notastingray@gmail.com</a>. Share a joke, tell me your life story, propose collaboration ideas, or just say hi!
+<p>You can reach me at <a href="mailto:notastingray@gmail.com">notastingray@gmail.com</a>. Crack a joke, tell me your life story, share collaboration ideas, or just say hi!
 </p>
 
 <br>
