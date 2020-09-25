@@ -4,13 +4,6 @@
 //   };
 // };
 
-// reset main page when reload
-window.onload = function () {
-  document.getElementById("canvas").style.width = "100%";
-  document.getElementById("canvas").style.left = "0";
-  document.getElementById("content").style.width = "0";
-};
-
 var frame = document.getElementById("cframe");
 // dark mode script //
 const moonPath =
@@ -105,21 +98,30 @@ if (darkMode) {
         "-= 1200"
       );
 
+    // iframe text dark mode //
     window.frames[0].document.body.style.color = toggle ? "#303030" : "#ccc";
+    if (window.frames[0].document.getElementsByTagName("h1")[0]) {
+      console.log("h1 exists!");
+      window.frames[0].document.getElementsByTagName(
+        "h1"
+      )[0].style.color = toggle ? "rgb(211, 181, 156)" : "rgb(217, 193, 132)";
+    }
     toggle = !toggle;
   });
 }
 
 // div slide-in script //
-
 let mql = window.matchMedia("(max-width: 768px)");
 
 // slide content container out //
-// var selected = document.getElementsByClassName("selected");
 var links = document.getElementsByClassName("link-item");
 if (links) {
   for (let i = 0; i < links.length; i++) {
     links[i].addEventListener("click", function () {
+      // window.frames[0].document.getElementsByTagName(
+      //   "h1"
+      // )[0].style.color = toggle ? "rgb(211, 181, 156)" : "rgb(217, 193, 132)";
+
       // mobile //
       if (mql.matches) {
         document.getElementById("content").style.bottom = "0";
@@ -139,6 +141,20 @@ if (links) {
         document.getElementById("headerz").style.left = "-33%";
         document.getElementById("content").style.right = "0";
         document.getElementById("content").style.width = "65%";
+      }
+      // toggle text colour
+
+      if (window.frames[0].document.readyState == "complete") {
+        setTimeout(function () {
+          window.frames[0].document.body.style.color = toggle
+            ? "#ccc"
+            : "#303030";
+          window.frames[0].document.getElementsByTagName(
+            "h1"
+          )[0].style.color = toggle
+            ? "rgb(217, 193, 132)"
+            : "rgb(211, 181, 156)";
+        }, 100);
       }
     });
   }
@@ -171,3 +187,27 @@ if (titleh1) {
 // function delay(URL) {
 // 	setTimeout(function () {window.location = URL}, 700);
 // };
+
+// reset main page when reload
+
+window.onload = function () {
+  resetDesktop();
+};
+
+window.onresize = function () {
+  // mobile //
+  if (mql.matches) {
+  }
+  // desktop //
+  else {
+    resetDesktop();
+    document.getElementById("house-container").style.left = "55%";
+    document.getElementById("darkMode").style.left = "60%";
+    document.getElementById("headerz").style.left = "0";
+  }
+};
+function resetDesktop() {
+  document.getElementById("canvas").style.width = "100%";
+  document.getElementById("canvas").style.left = "0";
+  document.getElementById("content").style.width = "0";
+}

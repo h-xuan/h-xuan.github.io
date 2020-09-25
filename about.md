@@ -3,7 +3,8 @@ title: about
 layout: page
 ---
 
-i'm an about page
+<h1>about</h1>
+<h2>where am i?</h2>
 <hr />
 😂 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus

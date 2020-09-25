@@ -3,4 +3,4 @@ title: projects
 layout: page
 ---
 
-<h2>projects</h2>
+<h1>projects</h1>

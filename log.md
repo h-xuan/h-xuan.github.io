@@ -3,7 +3,7 @@ title: log
 layout: page
 ---
 
-<h2>progress log</h2>
+<h1>progress log</h1>
 <p class="desc">A record of my daily/weekly/once in a blue moon progress.</p>
 
 <hr>
