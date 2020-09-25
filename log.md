@@ -17,14 +17,13 @@ layout: page
 <hr>
 {% endunless %}
 <h3>{{ current_year }}</h3>
-<ul>
+
 {% assign previous_year = current_year %}
 {% endif %}
 
-  <li><a class="post-link" href="{{ post.url }}">{{ post.title }}</a> ・ <span class="post-desc">{{ post.desc }}</span></li>
+<a class="post-link" href="{{ post.url }}">{{ post.title }}</a> ・ <span style="font-size:0.85em">{{ post.desc }}</span>
 
 {% if forloop.last %}
 
-</ul>
 {% endif %}
 {% endfor %}
