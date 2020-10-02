@@ -197,13 +197,14 @@ window.onload = function () {
 
 window.onresize = function () {
   // mobile //
-  if (mql.matches) {
-    resetMobile();
-  }
-  // desktop //
-  else {
-    resetDesktop();
-  }
+  // if (mql.matches) {
+  //   resetMobile();
+  // }
+  // // desktop //
+  // else {
+  //   resetDesktop();
+  // }
+  resetAll();
 };
 function resetDesktop() {
   document.getElementById("canvas").style.width = "100%";
@@ -222,5 +223,20 @@ function resetMobile() {
   document.getElementById("headerz").style.top = "0";
   document.getElementById("darkMode").style.top = "10%";
   document.getElementById("darkMode").style.left = "60%";
+  document.getElementById("house-container").style.top = "45%";
+}
+
+function resetAll() {
+  document.getElementById("canvas").style.width = "100%";
+  document.getElementById("canvas").style.left = "0";
+  document.getElementById("canvas").style.height = "100%";
+  document.getElementById("content").style.width = "0";
+  document.getElementById("content").style.bottom = "0";
+  document.getElementById("house-container").style.left = "55%";
+  document.getElementById("darkMode").style.left = "60%";
+  document.getElementById("headerz").style.left = "0";
+  document.getElementById("main").style.top = "0";
+  document.getElementById("headerz").style.top = "0";
+  document.getElementById("darkMode").style.top = "10%";
   document.getElementById("house-container").style.top = "45%";
 }
