@@ -26,6 +26,10 @@ h3 {
   margin: 10px auto;
 }
 
+p {
+  margin-bottom: 10px;
+}
+
 p a {
   color: #c9aa85;
 }
@@ -75,11 +79,19 @@ hr {
 }
 
 .proj {
-  background: #ccc;
+  background: #eee;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.1em;
+  border-radius: 8px;
+  opacity: 0.5;
+  font-family: "Poppins", "Segoe UI", sans-serif;
+}
+
+.proj:hover {
+  opacity: 1;
 }
 
 .proj::after {
@@ -87,9 +99,21 @@ hr {
   opacity: 0.3;
   content: attr(proj-emoji);
   display: block;
-  font-size: 4em;
+  font-size: 3em;
   line-height: 1;
   position: absolute;
   bottom: 15px;
   right: 10px;
+}
+
+.proj a {
+  color: inherit;
+  text-decoration: inherit;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  #projects {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
