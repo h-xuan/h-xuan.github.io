@@ -52,13 +52,6 @@ if (darkMode) {
         },
         "-= 1200"
       )
-      // .add(
-      //   {
-      //     targets: "#cframe",
-      //     filter: toggle ? "invert(0%)" : "invert(100%)",
-      //   },
-      //   "-= 1200"
-      // )
       .add(
         {
           targets: "#house",
@@ -98,14 +91,19 @@ if (darkMode) {
         "-= 1200"
       );
 
-    // iframe text dark mode //
+    // iframe dark mode //
     window.frames[0].document.body.style.color = toggle ? "#303030" : "#ccc";
+    proj_list = window.frames[0].document.getElementsByClassName("proj");
+    for (let i = 0; i < proj_list.length; i++) {
+      proj_list[i].style.background = toggle ? "#eee" : "#222";
+    }
+
     if (window.frames[0].document.getElementsByTagName("h1")[0]) {
-      console.log("h1 exists!");
       window.frames[0].document.getElementsByTagName(
         "h1"
       )[0].style.color = toggle ? "rgb(211, 181, 156)" : "rgb(217, 193, 132)";
     }
+
     toggle = !toggle;
   });
 }
@@ -149,6 +147,10 @@ if (links) {
           window.frames[0].document.body.style.color = toggle
             ? "#ccc"
             : "#303030";
+          proj_list = window.frames[0].document.getElementsByClassName("proj");
+          for (let i = 0; i < proj_list.length; i++) {
+            proj_list[i].style.background = toggle ? "#222" : "#eee";
+          }
           window.frames[0].document.getElementsByTagName(
             "h1"
           )[0].style.color = toggle
@@ -206,25 +208,25 @@ window.onresize = function () {
   // }
   resetAll();
 };
-function resetDesktop() {
-  document.getElementById("canvas").style.width = "100%";
-  document.getElementById("canvas").style.left = "0";
-  document.getElementById("canvas").style.height = "100%";
-  document.getElementById("content").style.width = "0";
-  document.getElementById("content").style.bottom = "0";
-  document.getElementById("house-container").style.left = "55%";
-  document.getElementById("darkMode").style.left = "60%";
-  document.getElementById("headerz").style.left = "0";
-}
-function resetMobile() {
-  document.getElementById("content").style.bottom = "-100%";
-  document.getElementById("canvas").style.height = "100%";
-  document.getElementById("main").style.top = "0";
-  document.getElementById("headerz").style.top = "0";
-  document.getElementById("darkMode").style.top = "10%";
-  document.getElementById("darkMode").style.left = "60%";
-  document.getElementById("house-container").style.top = "45%";
-}
+// function resetDesktop() {
+//   document.getElementById("canvas").style.width = "100%";
+//   document.getElementById("canvas").style.left = "0";
+//   document.getElementById("canvas").style.height = "100%";
+//   document.getElementById("content").style.width = "0";
+//   document.getElementById("content").style.bottom = "0";
+//   document.getElementById("house-container").style.left = "55%";
+//   document.getElementById("darkMode").style.left = "60%";
+//   document.getElementById("headerz").style.left = "0";
+// }
+// function resetMobile() {
+//   document.getElementById("content").style.bottom = "-100%";
+//   document.getElementById("canvas").style.height = "100%";
+//   document.getElementById("main").style.top = "0";
+//   document.getElementById("headerz").style.top = "0";
+//   document.getElementById("darkMode").style.top = "10%";
+//   document.getElementById("darkMode").style.left = "60%";
+//   document.getElementById("house-container").style.top = "45%";
+// }
 
 function resetAll() {
   document.getElementById("canvas").style.width = "100%";
