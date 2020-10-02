@@ -109,7 +109,7 @@ if (darkMode) {
 }
 
 // div slide-in script //
-let mql = window.matchMedia("(max-width: 768px)");
+let mql = window.matchMedia("(max-width: 600px)");
 
 // slide content container out //
 var links = document.getElementsByClassName("link-item");

@@ -154,7 +154,7 @@ nav a {
 }
 
 /****** mobile responsive ******/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #content {
     position: absolute;
     background-color: #fff;
