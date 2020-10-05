@@ -14,6 +14,7 @@ const sunPath =
 const darkMode = document.querySelector("#darkMode");
 
 let toggle = false;
+export { toggle };
 
 if (darkMode) {
   darkMode.addEventListener("click", () => {
@@ -145,32 +146,6 @@ if (links) {
       // toggle text colour
 
       if (window.frames[0].document.readyState == "complete") {
-        framelinks = window.frames[0].document.getElementsByClassName(
-          "post-link"
-        );
-        for (let i = 0; i < framelinks.length; i++) {
-          framelinks[i].addEventListener("click", function () {
-            if (window.frames[0].document.readyState == "complete") {
-              console.log("hi");
-              setTimeout(function () {
-                window.frames[0].document.body.style.color = toggle
-                  ? "#303030"
-                  : "#ccc";
-                proj_list = window.frames[0].document.getElementsByClassName(
-                  "proj"
-                );
-                for (let i = 0; i < proj_list.length; i++) {
-                  proj_list[i].style.background = toggle ? "#222" : "#eee";
-                }
-                window.frames[0].document.getElementsByTagName(
-                  "h1"
-                )[0].style.color = toggle
-                  ? "rgb(217, 193, 132)"
-                  : "rgb(211, 181, 156)";
-              }, 100);
-            }
-          });
-        }
         setTimeout(function () {
           window.frames[0].document.body.style.color = toggle
             ? "#ccc"
@@ -189,6 +164,22 @@ if (links) {
     });
   }
 }
+var framelinks = window.frames[0].document.getElementsByClassName("post-link");
+for (let i = 0; i < framelinks.length; i++) {
+  framelinks[i].addEventListener("click", function () {
+    setTimeout(function () {
+      window.frames[0].document.body.style.color = toggle ? "#ccc" : "#303030";
+      proj_list = window.frames[0].document.getElementsByClassName("proj");
+      for (let i = 0; i < proj_list.length; i++) {
+        proj_list[i].style.background = toggle ? "#222" : "#eee";
+      }
+      window.frames[0].document.getElementsByTagName(
+        "h1"
+      )[0].style.color = toggle ? "rgb(217, 193, 132)" : "rgb(211, 181, 156)";
+    }, 100);
+  });
+}
+
 // slide back to main page //
 var titleh1 = document.getElementById("titleh1");
 if (titleh1) {
