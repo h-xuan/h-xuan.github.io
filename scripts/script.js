@@ -154,8 +154,8 @@ if (links) {
               console.log("hi");
               setTimeout(function () {
                 window.frames[0].document.body.style.color = toggle
-                  ? "#ccc"
-                  : "#303030";
+                  ? "#303030"
+                  : "#ccc";
                 proj_list = window.frames[0].document.getElementsByClassName(
                   "proj"
                 );
