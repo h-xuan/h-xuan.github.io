@@ -5,6 +5,7 @@
 // };
 
 var frame = document.getElementById("cframe");
+
 // dark mode script //
 const moonPath =
   "M16 27.5C16 42.6878 27.5 54.5 27.5 55C12.3122 55 0 42.6878 0 27.5C0 12.3122 12.3122 0 27.5 0C27.5 0 16 12.3122 16 27.5Z";
@@ -145,27 +146,22 @@ if (links) {
       // toggle text colour
 
       if (window.frames[0].document.readyState == "complete") {
-        setTimeout(function () {
-          window.frames[0].document.body.style.color = toggle
-            ? "#ccc"
-            : "#303030";
-          proj_list = window.frames[0].document.getElementsByClassName("proj");
-          for (let i = 0; i < proj_list.length; i++) {
-            proj_list[i].style.background = toggle ? "#222" : "#eee";
-          }
-          window.frames[0].document.getElementsByTagName(
-            "h1"
-          )[0].style.color = toggle
-            ? "rgb(217, 193, 132)"
-            : "rgb(211, 181, 156)";
-        }, 100);
+        toggleDark();
+        var framelinks = window.frames[0].document.getElementsByClassName(
+          "post-link"
+        );
+        if (framelinks.length > 0) {
+        }
       }
     });
   }
-}
-var framelinks = window.frames[0].document.getElementsByClassName("post-link");
-for (let i = 0; i < framelinks.length; i++) {
-  framelinks[i].addEventListener("click", function () {
+
+  window.frames[0].onunload = function () {
+    console.log("loaded");
+    console.log(window.frames[0].location.href);
+  };
+
+  function toggleDark() {
     setTimeout(function () {
       window.frames[0].document.body.style.color = toggle ? "#ccc" : "#303030";
       proj_list = window.frames[0].document.getElementsByClassName("proj");
@@ -176,8 +172,23 @@ for (let i = 0; i < framelinks.length; i++) {
         "h1"
       )[0].style.color = toggle ? "rgb(217, 193, 132)" : "rgb(211, 181, 156)";
     }, 100);
-  });
+  }
 }
+// var framelinks = window.frames[0].document.getElementsByClassName("post-link");
+// for (let i = 0; i < framelinks.length; i++) {
+//   framelinks[i].addEventListener("click", function () {
+//     setTimeout(function () {
+//       window.frames[0].document.body.style.color = toggle ? "#ccc" : "#303030";
+//       proj_list = window.frames[0].document.getElementsByClassName("proj");
+//       for (let i = 0; i < proj_list.length; i++) {
+//         proj_list[i].style.background = toggle ? "#222" : "#eee";
+//       }
+//       window.frames[0].document.getElementsByTagName(
+//         "h1"
+//       )[0].style.color = toggle ? "rgb(217, 193, 132)" : "rgb(211, 181, 156)";
+//     }, 100);
+//   });
+// }
 
 // slide back to main page //
 var titleh1 = document.getElementById("titleh1");
