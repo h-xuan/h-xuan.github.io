@@ -144,7 +144,6 @@ if (links) {
         document.getElementById("content").style.width = "65%";
       }
       // toggle text colour
-
       if (window.frames[0].document.readyState == "complete") {
         toggleDark();
         var framelinks = window.frames[0].document.getElementsByClassName(
@@ -153,12 +152,15 @@ if (links) {
         if (framelinks.length > 0) {
         }
       }
+
+      console.log(window.frames[0].location.href);
     });
   }
 
   window.frames[0].onunload = function () {
     console.log("loaded");
     console.log(window.frames[0].location.href);
+    // console.log(window.frames[0].document.referrer);
   };
 
   function toggleDark() {
