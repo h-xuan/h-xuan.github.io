@@ -122,7 +122,6 @@ if (links) {
       // window.frames[0].document.getElementsByTagName(
       //   "h1"
       // )[0].style.color = toggle ? "rgb(211, 181, 156)" : "rgb(217, 193, 132)";
-
       // mobile //
       if (mql.matches) {
         document.getElementById("content").style.bottom = "0";
@@ -164,9 +163,11 @@ if (links) {
     });
   }
 }
-
-var framelinks = window.frames[0].document.getElementsByClassName("post-link");
+var framelinks = frame.contentWindow.document.getElementsByClassName(
+  "post-link"
+);
 for (let i = 0; i < framelinks.length; i++) {
+  console.log("framelink");
   framelinks[i].addEventListener("click", function () {
     if (window.frames[0].document.readyState == "complete") {
       setTimeout(function () {
