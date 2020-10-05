@@ -14,7 +14,6 @@ const sunPath =
 const darkMode = document.querySelector("#darkMode");
 
 let toggle = false;
-export { toggle };
 
 if (darkMode) {
   darkMode.addEventListener("click", () => {
