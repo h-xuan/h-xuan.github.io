@@ -163,9 +163,7 @@ if (links) {
     });
   }
 }
-var framelinks = frame.contentWindow.document.getElementsByClassName(
-  "post-link"
-);
+var framelinks = window.frames[0].document.getElementsByClassName("post-link");
 for (let i = 0; i < framelinks.length; i++) {
   console.log("framelink");
   framelinks[i].addEventListener("click", function () {
