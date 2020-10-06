@@ -14,99 +14,107 @@ const sunPath =
 
 const darkMode = document.querySelector("#darkMode");
 
-let toggle = false;
+// let toggle = false;
+var localStorage = window.localStorage;
+var toggle = localStorage.setItem("storetoggle", "false");
+// toggle = localStorage.getItem("storetoggle") == "false";
 
 if (darkMode) {
   darkMode.addEventListener("click", () => {
-    // use anime.js
-    // set up timeline
-    const timeline = anime.timeline({
-      duration: 750,
-      easing: "easeOutExpo",
-    });
-    // add anims to timeline
-    timeline
-      .add({
-        targets: ".sun",
-        d: [{ value: toggle ? sunPath : moonPath }],
-      })
-      .add(
-        {
-          targets: "#darkMode",
-          rotate: toggle ? 0 : 320,
-        },
-        "-= 350"
-      )
-      .add(
-        {
-          targets: "#main",
-          filter: toggle
-            ? "grayscale(0%) brightness(100%)"
-            : "grayscale(80%) brightness(40%)",
-        },
-        "-= 1200"
-      )
-      .add(
-        {
-          targets: "#content",
-          backgroundColor: toggle ? "rgb(255,255,255)" : "rgb(57,54,50)",
-        },
-        "-= 1200"
-      )
-      .add(
-        {
-          targets: "#house",
-          filter: toggle
-            ? "sepia(50%) grayscale(0%) brightness(100%)"
-            : "grayscale(80%) brightness(40%)",
-        },
-        "-= 1200"
-      )
-      .add(
-        {
-          targets: "#window",
-          backgroundColor: toggle ? "rgb(209, 205, 205)" : "rgb(255, 215, 112)",
-        },
-        "-= 1200"
-      )
-      .add(
-        {
-          targets: "h1",
-          color: toggle ? "rgb(0, 0, 0)" : "rgb(255, 215, 112)",
-          opacity: toggle ? 0.3 : 0.5,
-        },
-        "-= 1200"
-      )
-      .add(
-        {
-          targets: "nav a",
-          color: toggle ? "rgb(0, 0, 0)" : "rgb(255, 237, 191)",
-        },
-        "-= 1200"
-      )
-      .add(
-        {
-          targets: "p",
-          color: toggle ? "rgb(0, 0, 0)" : "rgb(237, 237, 237)",
-        },
-        "-= 1200"
-      );
+    darkModeAnim();
+    // toggle = !toggle;
 
-    // iframe dark mode //
-    window.frames[0].document.body.style.color = toggle ? "#303030" : "#ccc";
-    proj_list = window.frames[0].document.getElementsByClassName("proj");
-    for (let i = 0; i < proj_list.length; i++) {
-      proj_list[i].style.background = toggle ? "#eee" : "#222";
+    if (typeof Storage !== "undefined") {
+      // Store
+      if (!toggle) {
+        localStorage.setItem("storetoggle", "true");
+      } else {
+        localStorage.setItem("storetoggle", "false");
+      }
     }
-
-    if (window.frames[0].document.getElementsByTagName("h1")[0]) {
-      window.frames[0].document.getElementsByTagName(
-        "h1"
-      )[0].style.color = toggle ? "rgb(211, 181, 156)" : "rgb(217, 193, 132)";
-    }
-
-    toggle = !toggle;
+    toggle = localStorage.getItem("storetoggle") == "true";
+    console.log(toggle);
   });
+}
+
+function darkModeAnim() {
+  // use anime.js
+  // set up timeline
+  const timeline = anime.timeline({
+    duration: 750,
+    easing: "easeOutExpo",
+  });
+  // add anims to timeline
+  timeline
+    .add({
+      targets: ".sun",
+      d: [{ value: toggle ? sunPath : moonPath }],
+    })
+    .add(
+      {
+        targets: "#darkMode",
+        rotate: toggle ? 0 : 320,
+      },
+      "-= 350"
+    )
+    .add(
+      {
+        targets: "#main",
+        filter: toggle
+          ? "grayscale(0%) brightness(100%)"
+          : "grayscale(80%) brightness(40%)",
+      },
+      "-= 1200"
+    )
+    .add(
+      {
+        targets: "#content",
+        backgroundColor: toggle ? "rgb(255,255,255)" : "rgb(57,54,50)",
+      },
+      "-= 1200"
+    )
+    .add(
+      {
+        targets: "#house",
+        filter: toggle
+          ? "sepia(50%) grayscale(0%) brightness(100%)"
+          : "grayscale(80%) brightness(40%)",
+      },
+      "-= 1200"
+    )
+    .add(
+      {
+        targets: "#window",
+        backgroundColor: toggle ? "rgb(209, 205, 205)" : "rgb(255, 215, 112)",
+      },
+      "-= 1200"
+    )
+    .add(
+      {
+        targets: "h1",
+        color: toggle ? "rgb(0, 0, 0)" : "rgb(255, 215, 112)",
+        opacity: toggle ? 0.3 : 0.5,
+      },
+      "-= 1200"
+    )
+    .add(
+      {
+        targets: "nav a",
+        color: toggle ? "rgb(0, 0, 0)" : "rgb(255, 237, 191)",
+      },
+      "-= 1200"
+    )
+    .add(
+      {
+        targets: "p",
+        color: toggle ? "rgb(0, 0, 0)" : "rgb(237, 237, 237)",
+      },
+      "-= 1200"
+    );
+  // toggle text colour
+  if (window.frames[0].document.readyState == "complete") {
+    toggleDark();
+  }
 }
 
 // div slide-in script //
@@ -143,25 +151,23 @@ if (links) {
         document.getElementById("content").style.right = "0";
         document.getElementById("content").style.width = "65%";
       }
-      // toggle text colour
-      if (window.frames[0].document.readyState == "complete") {
-        toggleDark();
-        var framelinks = window.frames[0].document.getElementsByClassName(
-          "post-link"
-        );
-        if (framelinks.length > 0) {
-        }
-      }
 
-      console.log(window.frames[0].location.href);
+      // var framelinks = window.frames[0].document.getElementsByClassName(
+      //   "post-link"
+      // );
+      // if (framelinks.length > 0) {
+      // }
+      // }
+
+      // console.log(window.frames[0].location.href);
     });
   }
 
-  window.frames[0].onunload = function () {
-    console.log("loaded");
-    console.log(window.frames[0].location.href);
-    // console.log(window.frames[0].document.referrer);
-  };
+  // window.frames[0].onunload = function () {
+  //   console.log("loaded");
+  //   console.log(window.frames[0].location.href);
+  //   // console.log(window.frames[0].document.referrer);
+  // };
 
   function toggleDark() {
     setTimeout(function () {
