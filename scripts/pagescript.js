@@ -1,7 +1,5 @@
 window.onload = function () {
-  alert(localStorage.getItem("storetoggle") == "true");
-  //   document.body.style.color =
-  //     localStorage.getItem("storetoggle") == "true" ? "#ccc" : "#303030";
+  //   alert(localStorage.getItem("storetoggle") == "true");
   toggleDark();
 };
 
