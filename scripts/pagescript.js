@@ -14,5 +14,5 @@ function toggleDark() {
     document.getElementsByTagName("h1")[0].style.color = toggle
       ? "rgb(217, 193, 132)"
       : "rgb(211, 181, 156)";
-  }, 100);
+  }, 10);
 }
