@@ -2,7 +2,7 @@
 title: Hello internet!
 desc: introduction & curriculum
 layout: post
-date: 2020-09-28 17:52:22 +0800
+date: 2020-10-06 14:11:22 +0800
 ---
 
 <!--
