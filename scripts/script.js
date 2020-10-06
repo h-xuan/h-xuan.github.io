@@ -122,15 +122,10 @@ let mql = window.matchMedia("(max-width: 600px)");
 
 // slide content container out //
 var links = document.getElementsByClassName("link-item");
-// var framelinks = window.frames[0].document.getElementsByTagName("a");
-// var links = Array.from(mainlinks).concat(Array.from(framelinks));
 
 if (links) {
   for (let i = 0; i < links.length; i++) {
     links[i].addEventListener("click", function () {
-      // window.frames[0].document.getElementsByTagName(
-      //   "h1"
-      // )[0].style.color = toggle ? "rgb(211, 181, 156)" : "rgb(217, 193, 132)";
       // mobile //
       if (mql.matches) {
         document.getElementById("content").style.bottom = "0";
@@ -151,23 +146,8 @@ if (links) {
         document.getElementById("content").style.right = "0";
         document.getElementById("content").style.width = "65%";
       }
-
-      // var framelinks = window.frames[0].document.getElementsByClassName(
-      //   "post-link"
-      // );
-      // if (framelinks.length > 0) {
-      // }
-      // }
-
-      // console.log(window.frames[0].location.href);
     });
   }
-
-  // window.frames[0].onunload = function () {
-  //   console.log("loaded");
-  //   console.log(window.frames[0].location.href);
-  //   // console.log(window.frames[0].document.referrer);
-  // };
 
   function toggleDark() {
     setTimeout(function () {
