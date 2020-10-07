@@ -70,7 +70,7 @@ I think too much and do too little. Hence, I built this site for three main purp
     <li>1700~1830: art time</li>
     <li>1830~1930: workout, shower</li>
     <li>1930~2300: dinner, art time</li>
-    <li>2300~00000: BOOK TIME</li>
+    <li>2300~0000: BOOK TIME</li>
     <li>0000: zzz...</li>
 </ul>
 <br>
