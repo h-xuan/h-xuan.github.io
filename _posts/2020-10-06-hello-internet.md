@@ -5,6 +5,81 @@ layout: post
 date: 2020-10-06 14:11:22 +0800
 ---
 
+<p>
+Finally got the layout about 99% working! (Please don't decide to hunt for that 1%.) Anyway, hello there and thanks for stumbling upon my little virtual space. I'll try to write as unfiltered as possible, in a stream-of-consciousness manner, to prevent spending more than half the day overthinking every single word choice. Read on if you're curious about what a random stranger on the internet is up to in her post-graduation life.
+
+</p>
+<br>
+
+<h3>🤔 what's all this for?</h3>
+
+<p>
+I think too much and do too little. Hence, I built this site for three main purposes:
+</p>
+<p>
+<b>Accountability.</b> Sticking to a regular schedule is something relatively new for a chronic procrastinator like yours truly. Having to update and maintain a public platform makes it more difficult for me to disappear off the face of the earth and wind up not doing anything. Tracking my progress (somewhat) regularly also ensures I'm not squandering my precious NEET time on things that are inconsequential.
+</p>
+
+<p>
+<b>Putting myself out there.</b> People who have struggled, or are still struggling, with crippling shyness and anxiety can perhaps relate to fear of being painfully visible, of having the spotlight cast on oneself, of having (mostly imaginary) eyes scrutinizing our every move. That's why I'm throwing myself into the deep end before my brain starts doubting itself and brooding over the embarrassment. I want to share my works and thoughts and actually participate in the world out there instead of merely being a bystander. Connecting with like-minded people and learning from each other is also a lovely thought. 
+</p>
+
+<p>
+<b>Motivation.</b> I'm not a fan of relying on motivation to get things started, but on some days the inertia is simply too massive and the gravity of the bed too strong. That's when I can look back and marvel at the times when I'd actually managed to get anything done at all to get the little spark I need to push forward. And I'll be delighted if this humble site of mine can be a spark you need on days where you happen to feel utterly deflated and unmotivated.
+
+</p>
+<br>
+
+<h3>📚 my personal curriculum: month of october</h3>
+
+<p>With that said, let's lay out the plans for the month (although it's already almost a quarter in). I'm not a stickler when it comes to plans, but having some sort of structure is always desirable and my mind tends to drift aimlessly without one. Thus, here's a beautiful table outlining the resources and to-dos for each of the topics I'm working on.
+</p>
+<br>
+<div class="gridtable">
+<div class="tabletitle web"><b>💻 web dev</b></div>
+<div class="tabletitle illust"><b>🎨 illustration</b></div>
+<div class="tabletitle lang"><b>💬 language</b></div>
+<div class="web-cont">
+<p>resources: <a href="https://www.theodinproject.com/home" target="_blank">The Odin Project</a> + <a href="https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg" target="_blank">NetNinja (youtube)</a></p>
+<p>to-dos: >=3 projects per week.</p>
+<p style="font-size: 0.7em">(^that looks like a sideways angry cat face)</p>
+
+</div>
+<div class="illust-cont">
+<p>resources: <a href="https://www.ctrlpaint.com/" target="_blank">Ctrl+Paint</a> + youtube but to be honest, I'm not following any tutorials/lessons at the moment. The plan is to draw as much as possible and get acquainted with drawing a wide variety of things.
+</p>
+<p>to-dos: draw something everyday and post them to my <a href="https://www.instagram.com/hxlog/" target="_blank">instagram</a> which also acts as my japanese journal.
+</p>
+
+</div>
+<div class="lang-cont">
+<p>resources: <a href="https://talktomeinkorean.com/" target="_blank">TTMIK</a> (korean) + my huge stash of japanese content + the internet.
+</p>
+<p>to-dos: refer to to-do in the previous column.</p>
+
+</div>
+</div>
+
+<br>
+<p><b>🌈 an ideal day (rough time blocks)</b>
+<ul>
+    <li>0800: rise and shine</li>
+    <li>0830~1230: web dev time</li>
+    <li>1230~1400: food coma</li>
+    <li>1400~1700: language time</li>
+    <li>1700~1830: art time</li>
+    <li>1830~1930: workout, shower</li>
+    <li>1930~2300: dinner, art time</li>
+    <li>2300~00000: BOOK TIME</li>
+    <li>0000: zzz...</li>
+</ul>
+<br>
+This would of course be a highly ideal scenario considering how I haven't managed to wake up before 9am for the past month or so. Also, following this plan means I'll be spending almost all of my waking hours staring at a screen, which might not be the healthiest thing to do, so Wednesday and Saturday afternoons shall be reserved for going on excursions/reading paper books/doing whatever that doesn't involve digital devices.
+</p>
+<p>
+With that, let's get cracking 🐣🐣🐣 You can expect an update hopefully once every week. Thanks for checking this place out and have a beautiful day ahead. 🌈
+</p>
+
 <!--
 Thanks for stumbling upon my little virtual space. Read on if you're curious about what a random stranger on the internet is up to in her post-graduation life.
 

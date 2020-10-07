@@ -27,11 +27,15 @@ h3 {
   margin: 10px auto;
 }
 
+b {
+  color: #c9aa85;
+}
+
 p {
   margin-bottom: 10px;
 }
 
-p a {
+a {
   color: #c9aa85;
 }
 p a:hover {
@@ -42,9 +46,54 @@ hr {
   margin: 15px auto;
 }
 
+ul {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
 .desc {
   font-size: 0.85em;
   text-align: center;
+}
+
+.gridtable {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(50px, auto);
+  grid-gap: 10px;
+  border: 1px #ccc solid;
+  grid-template-areas:
+    "web illust lang"
+    "web-cont illust-cont lang-cont";
+}
+
+.gridtable div {
+  padding: 10px;
+}
+
+.tabletitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.web {
+  grid-area: web;
+}
+.illust {
+  grid-area: illust;
+}
+.lang {
+  grid-area: lang;
+}
+.web-cont {
+  grid-area: web-cont;
+}
+.illust-cont {
+  grid-area: illust-cont;
+}
+.lang-cont {
+  grid-area: lang-cont;
 }
 
 /****** scrollbar *******/
@@ -119,5 +168,16 @@ body {
 @media only screen and (max-width: 768px) {
   #projects {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .gridtable {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas:
+      "web"
+      "web-cont"
+      "illust"
+      "illust-cont"
+      "lang"
+      "lang-cont";
   }
 }

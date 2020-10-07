@@ -144,6 +144,7 @@ if (links) {
         document.getElementById("darkMode").style.left = "20%";
         document.getElementById("headerz").style.left = "-33%";
         document.getElementById("content").style.right = "0";
+        document.getElementById("content").style.bottom = "0";
         document.getElementById("content").style.width = "65%";
       }
     });
@@ -162,21 +163,6 @@ if (links) {
     }, 10);
   }
 }
-// var framelinks = window.frames[0].document.getElementsByClassName("post-link");
-// for (let i = 0; i < framelinks.length; i++) {
-//   framelinks[i].addEventListener("click", function () {
-//     setTimeout(function () {
-//       window.frames[0].document.body.style.color = toggle ? "#ccc" : "#303030";
-//       proj_list = window.frames[0].document.getElementsByClassName("proj");
-//       for (let i = 0; i < proj_list.length; i++) {
-//         proj_list[i].style.background = toggle ? "#222" : "#eee";
-//       }
-//       window.frames[0].document.getElementsByTagName(
-//         "h1"
-//       )[0].style.color = toggle ? "rgb(217, 193, 132)" : "rgb(211, 181, 156)";
-//     }, 100);
-//   });
-// }
 
 // slide back to main page //
 var titleh1 = document.getElementById("titleh1");
@@ -203,55 +189,31 @@ if (titleh1) {
   });
 }
 
-// function delay(URL) {
-// 	setTimeout(function () {window.location = URL}, 700);
-// };
-
 // reset main page when reload
 
 window.onload = function () {
-  if (mql.matches) {
-    resetMobile();
-  }
-  // // desktop //
-  else {
-    resetDesktop();
-  }
+  // if (mql.matches) {
+  //   resetMobile();
+  // }
+  // // // desktop //
+  // else {
+  //   resetDesktop();
+  // }
+  resetAll();
 };
 
 window.onresize = function () {
   // mobile //
-  if (mql.matches) {
-    resetMobile();
-  }
-  // // desktop //
-  else {
-    resetDesktop();
-  }
-  // resetAll();
+  // if (mql.matches) {
+  //   resetMobile();
+  // }
+  // // // desktop //
+  // else {
+  //   resetDesktop();
+  // }
+  resetAll();
 };
-function resetDesktop() {
-  document.getElementById("canvas").style.width = "100%";
-  document.getElementById("canvas").style.left = "0";
-  document.getElementById("canvas").style.height = "100%";
-  document.getElementById("content").style.width = "0";
-  document.getElementById("content").style.bottom = "0";
-  document.getElementById("house-container").style.left = "55%";
-  document.getElementById("darkMode").style.left = "60%";
-  document.getElementById("headerz").style.left = "0";
-}
-function resetMobile() {
-  document.getElementById("content").style.bottom = "-100%";
-  document.getElementById("content").style.width = "0";
-  document.getElementById("canvas").style.height = "100%";
-  document.getElementById("main").style.top = "0";
-  document.getElementById("headerz").style.top = "0";
-  document.getElementById("darkMode").style.top = "10%";
-  document.getElementById("darkMode").style.left = "60%";
-  document.getElementById("house-container").style.top = "45%";
-}
-
-// function resetAll() {
+// function resetDesktop() {
 //   document.getElementById("canvas").style.width = "100%";
 //   document.getElementById("canvas").style.left = "0";
 //   document.getElementById("canvas").style.height = "100%";
@@ -260,8 +222,29 @@ function resetMobile() {
 //   document.getElementById("house-container").style.left = "55%";
 //   document.getElementById("darkMode").style.left = "60%";
 //   document.getElementById("headerz").style.left = "0";
+// }
+// function resetMobile() {
+//   document.getElementById("content").style.bottom = "-100%";
+//   document.getElementById("content").style.width = "0";
+//   document.getElementById("canvas").style.height = "100%";
 //   document.getElementById("main").style.top = "0";
 //   document.getElementById("headerz").style.top = "0";
 //   document.getElementById("darkMode").style.top = "10%";
+//   document.getElementById("darkMode").style.left = "60%";
 //   document.getElementById("house-container").style.top = "45%";
 // }
+
+function resetAll() {
+  document.getElementById("canvas").style.width = "100%";
+  document.getElementById("canvas").style.left = "0";
+  document.getElementById("canvas").style.height = "100%";
+  document.getElementById("content").style.width = "0";
+  document.getElementById("content").style.bottom = "-100%";
+  document.getElementById("house-container").style.left = "55%";
+  document.getElementById("darkMode").style.left = "60%";
+  document.getElementById("headerz").style.left = "0";
+  document.getElementById("main").style.top = "0";
+  document.getElementById("headerz").style.top = "0";
+  document.getElementById("darkMode").style.top = "10%";
+  document.getElementById("house-container").style.top = "45%";
+}
