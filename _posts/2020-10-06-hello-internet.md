@@ -74,7 +74,7 @@ I think too much and do too little. Hence, I built this site for three main purp
     <li>0000: zzz...</li>
 </ul>
 <br>
-This would of course be a highly ideal scenario considering how I haven't managed to wake up before 9am for the past month or so. Also, following this plan means I'll be spending almost all of my waking hours staring at a screen, which might not be the healthiest thing to do, so Wednesday and Saturday afternoons shall be reserved for going on excursions/reading paper books/doing whatever that doesn't involve digital devices.
+This would of course be a highly ideal scenario considering how I haven't managed to wake up earlier than 9am for the past month or so. Also, following this plan means I'll be spending almost all of my waking hours staring at a screen, which might not be the healthiest thing to do, so Wednesday and Saturday afternoons shall be reserved for going on excursions/reading paper books/doing whatever that doesn't involve digital devices.
 </p>
 <p>
 With that, let's get cracking 🐣🐣🐣 You can expect an update hopefully once every week. Thanks for checking this place out and have a beautiful day ahead. 🌈
