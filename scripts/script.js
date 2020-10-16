@@ -118,7 +118,7 @@ function darkModeAnim() {
 }
 
 // div slide-in script //
-let mql = window.matchMedia("(max-width: 600px)");
+let mql = window.matchMedia("(max-width: 750px)");
 
 // slide content container out //
 var links = document.getElementsByClassName("link-item");
