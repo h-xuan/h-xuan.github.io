@@ -37,6 +37,7 @@ p {
 
 a {
   color: #c9aa85;
+  text-decoration: none;
 }
 p a:hover {
   color: #e9d5be;
