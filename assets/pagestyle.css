@@ -57,6 +57,11 @@ ul {
   text-align: center;
 }
 
+.done {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
 .gridtable {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
