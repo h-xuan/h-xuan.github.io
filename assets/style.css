@@ -47,7 +47,7 @@ svg {
   background-repeat: no-repeat;
   overflow: hidden;
   background-size: 1920px 1080px;
-  z-index: -1;
+  z-index: -10;
   left: 0px;
   transition: width 0.5s ease-in-out;
   touch-action: none;
@@ -120,7 +120,7 @@ nav {
   position: absolute;
   width: 100%;
   display: flex;
-  z-index: 3;
+  z-index: 1;
   justify-content: center;
 }
 
@@ -142,6 +142,7 @@ nav a {
   right: -65%;
   bottom: 0;
   transition: right 0.5s ease-in-out, width 0.5s ease-in-out;
+  z-index: 100;
 }
 
 #cframe {
